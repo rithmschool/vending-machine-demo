@@ -1,17 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Message from "./Message";
 import "./VendingMachine.css";
 import machine from "./machine.png";
-import { Link } from "react-router-dom";
 
 const VendingMachine = props => (
   <div
     className="VendingMachine"
     style={{ backgroundImage: `url(${machine})` }}
   >
-    <div className="content">
+    <Message>
       <h1>hello i am a vending machine. what would you like to eat?</h1>
-    </div>
-    <div className="content">
+    </Message>
+    <Message>
       <h1>
         <Link to="/soda">soda</Link>
       </h1>
@@ -19,12 +20,9 @@ const VendingMachine = props => (
         <Link to="/chips">chips</Link>
       </h1>
       <h1>
-        <Link to="/candy">candy</Link>
-      </h1>
-      <h1>
         <Link to="/sardines">fresh sardines</Link>
       </h1>
-    </div>
+    </Message>
   </div>
 );
 

@@ -21,8 +21,9 @@ class Chips extends Component {
   }
 
   render() {
-    const bags = this.state.bags.map(bag => (
+    const bags = this.state.bags.map((bag, i) => (
       <img
+        key={i}
         src={lays}
         className="bag"
         style={{ top: `${bag.y}px`, left: `${bag.x}px` }}
