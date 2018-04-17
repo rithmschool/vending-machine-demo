@@ -1,27 +1,26 @@
-.VendingMachine {
-  text-align: center;
+/* .Sardines img {
+  width: 100vw;
+  height: 100vh;
+} */
+
+.Sardines {
   width: 100vw;
   height: 100vh;
   background-size: cover;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-.content {
-  width: 30%;
-  margin: 1rem;
+.Sardines .message {
+  padding: 30px;
   background-color: rgba(0, 0, 0, 0.4);
   color: white;
   text-transform: uppercase;
   border-radius: 10px;
 }
 
-a {
+.Sardines .message h1 {
+  text-align: center;
   color: white;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
