@@ -1,14 +1,14 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import Message from "./Message";
-import "./Sardines.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Message from './Message';
+import './Sardines.css';
 
 const Sardines = props => (
   <div
     className="Sardines"
     style={{
       backgroundImage:
-        "url(https://media.giphy.com/media/tVk4w6EZ7eGNq/giphy.gif)"
+        'url(https://media.giphy.com/media/tVk4w6EZ7eGNq/giphy.gif)'
     }}
   >
     <Message>

@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import lays from "./lays.png";
-import { Link } from "react-router-dom";
-import Message from "./Message";
-import "./Chips.css";
+import React, { Component } from 'react';
+import lays from './lays.png';
+import { Link } from 'react-router-dom';
+import Message from './Message';
+import './Chips.css';
 
 class Chips extends Component {
   constructor(props) {
@@ -34,7 +34,9 @@ class Chips extends Component {
       <div className="Chips">
         <Message>
           <h1>bags eaten: {this.state.bags.length}</h1>
-          <button onClick={this.handleClick}>nom nom nom</button>
+          <button id="nomnom" onClick={this.handleClick}>
+            nom nom nom
+          </button>
           <h1>
             <Link to="/">go back</Link>
           </h1>

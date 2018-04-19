@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> matches snapshot 1`] = `
+<MemoryRouter
+  initialEntries={
+    Array [
+      Object {
+        "key": "testKey",
+      },
+    ]
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "testKey",
+            "pathname": "/",
+            "search": "",
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "testKey",
+          "pathname": "/",
+          "search": "",
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <App>
+      <div>
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/"
+        >
+          <VendingMachine
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "canGo": [Function],
+                "createHref": [Function],
+                "entries": Array [
+                  Object {
+                    "hash": "",
+                    "key": "testKey",
+                    "pathname": "/",
+                    "search": "",
+                  },
+                ],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "index": 0,
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "key": "testKey",
+                  "pathname": "/",
+                  "search": "",
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+            location={
+              Object {
+                "hash": "",
+                "key": "testKey",
+                "pathname": "/",
+                "search": "",
+              }
+            }
+            match={
+              Object {
+                "isExact": true,
+                "params": Object {},
+                "path": "/",
+                "url": "/",
+              }
+            }
+          >
+            <div
+              className="VendingMachine"
+              style={
+                Object {
+                  "backgroundImage": "url(machine.png)",
+                }
+              }
+            >
+              <Message>
+                <div
+                  className="Message"
+                  id="messagey"
+                >
+                  <h1>
+                    hello i am a vending machine. what would you like to eat?
+                  </h1>
+                </div>
+              </Message>
+              <Message>
+                <div
+                  className="Message"
+                  id="messagey"
+                >
+                  <h1>
+                    <Link
+                      replace={false}
+                      to="/soda"
+                    >
+                      <a
+                        href="/soda"
+                        onClick={[Function]}
+                      >
+                        soda
+                      </a>
+                    </Link>
+                  </h1>
+                  <h1>
+                    <Link
+                      replace={false}
+                      to="/chips"
+                    >
+                      <a
+                        href="/chips"
+                        onClick={[Function]}
+                      >
+                        chips
+                      </a>
+                    </Link>
+                  </h1>
+                  <h1>
+                    <Link
+                      replace={false}
+                      to="/sardines"
+                    >
+                      <a
+                        href="/sardines"
+                        onClick={[Function]}
+                      >
+                        fresh sardines
+                      </a>
+                    </Link>
+                  </h1>
+                </div>
+              </Message>
+            </div>
+          </VendingMachine>
+        </Route>
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/soda"
+        />
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/chips"
+        />
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/sardines"
+        />
+      </div>
+    </App>
+  </Router>
+</MemoryRouter>
+`;

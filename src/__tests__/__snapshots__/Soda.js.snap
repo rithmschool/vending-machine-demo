@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Sardines /> matches snapshot 1`] = `
+<MemoryRouter
+  initialEntries={
+    Array [
+      Object {
+        "key": "testKey",
+      },
+    ]
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "testKey",
+            "pathname": "/",
+            "search": "",
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "testKey",
+          "pathname": "/",
+          "search": "",
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Soda>
+      <div
+        className="Soda"
+      >
+        <img
+          src="soda.png"
+        />
+        <Message>
+          <div
+            className="Message"
+            id="messagey"
+          >
+            <h1>
+              OMG SUGARRRRR
+            </h1>
+            <h1>
+              <Link
+                replace={false}
+                to="/"
+              >
+                <a
+                  href="/"
+                  onClick={[Function]}
+                >
+                  go back
+                </a>
+              </Link>
+            </h1>
+          </div>
+        </Message>
+        <img
+          src="soda.png"
+        />
+      </div>
+    </Soda>
+  </Router>
+</MemoryRouter>
+`;

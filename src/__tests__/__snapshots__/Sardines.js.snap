@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Sardines /> matches snapshot 1`] = `
+<MemoryRouter
+  initialEntries={
+    Array [
+      Object {
+        "key": "testKey",
+      },
+    ]
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "testKey",
+            "pathname": "/",
+            "search": "",
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "testKey",
+          "pathname": "/",
+          "search": "",
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Sardines>
+      <div
+        className="Sardines"
+        style={
+          Object {
+            "backgroundImage": "url(https://media.giphy.com/media/tVk4w6EZ7eGNq/giphy.gif)",
+          }
+        }
+      >
+        <Message>
+          <div
+            className="Message"
+            id="messagey"
+          >
+            <h1>
+              you don't eat the sardines. the sardines, they eat you!
+            </h1>
+            <h1>
+              <Link
+                replace={false}
+                to="/"
+              >
+                <a
+                  href="/"
+                  onClick={[Function]}
+                >
+                  go back
+                </a>
+              </Link>
+            </h1>
+          </div>
+        </Message>
+      </div>
+    </Sardines>
+  </Router>
+</MemoryRouter>
+`;

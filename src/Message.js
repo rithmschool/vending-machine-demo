@@ -1,6 +1,10 @@
-import React from "react";
-import "./Message.css";
+import React from 'react';
+import './Message.css';
 
-const Message = ({ children }) => <div className="Message">{children}</div>;
+const Message = ({ children }) => (
+  <div id="messagey" className="Message">
+    {children}
+  </div>
+);
 
 export default Message;
